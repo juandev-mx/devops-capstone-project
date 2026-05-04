@@ -10,10 +10,12 @@ from service import config
 from service.common import log_handlers
 from flask_talisman import Talisman
 from flask_cors import CORS
+import os
+
 # Create Flask application
 app = Flask(__name__)
 
-talisman = Talisman(app)
+talisman = Talisman(app, force_https=os.getenv('TALISMAN_FORCE_HTTPS', 'True').lower() == 'true')
 CORS(app)
 app.config.from_object(config)
 
