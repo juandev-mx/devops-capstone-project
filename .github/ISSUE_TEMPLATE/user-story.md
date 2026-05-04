@@ -1,9 +1,8 @@
 ---
 name: User Story
-description: Template for creating agile user stories
+about: Template for creating agile user stories
 title: ''
 labels: ''
-assignees: ''
 ---
 
 **As a** [role]  
@@ -18,3 +17,4 @@ Given [some context]
 When [certain action is taken]
 Then [the outcome of action is observed]
 ```
+
