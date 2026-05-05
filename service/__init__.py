@@ -15,7 +15,8 @@ import os
 # Create Flask application
 app = Flask(__name__)
 
-talisman = Talisman(app, force_https=os.getenv('TALISMAN_FORCE_HTTPS', 'True').lower() == 'true')
+talisman = Talisman(app, force_https=os.getenv(
+    'TALISMAN_FORCE_HTTPS', 'True').lower() == 'true')
 CORS(app)
 app.config.from_object(config)
 
@@ -30,7 +31,8 @@ from service.common import error_handlers, cli_commands  # noqa: F401 E402
 log_handlers.init_logging(app, "gunicorn.error")
 
 app.logger.info(70 * "*")
-app.logger.info("  A C C O U N T   S E R V I C E   R U N N I N G  ".center(70, "*"))
+app.logger.info(
+    "  A C C O U N T   S E R V I C E   R U N N I N G  ".center(70, "*"))
 app.logger.info(70 * "*")
 
 try:
