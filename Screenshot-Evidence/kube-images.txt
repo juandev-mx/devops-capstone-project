@@ -1,0 +1,6 @@
+(venv) theia:devops-capstone-project$ docker image ls
+REPOSITORY                                TAG       IMAGE ID       CREATED             SIZE
+accounts                                  latest    5723e5c6cfe3   About an hour ago   198MB
+customer-accounts                         latest    5723e5c6cfe3   About an hour ago   198MB
+us.icr.io/sn-labs-minimundoche/accounts   1         5723e5c6cfe3   About an hour ago   198MB
+postgres                                  alpine    bb46dc8bfad7   19 months ago       248MB
