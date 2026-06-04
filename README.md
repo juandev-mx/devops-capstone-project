@@ -19,7 +19,7 @@ The core objective was to transform a legacy code template into a production-rea
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 *   **Production-Ready RESTful API:** Implemented secure, standard CRUD (Create, Read, Update, Delete) and resource listing endpoints.
 *   **Test-Driven Development (TDD):** Maintained a strict >95% code coverage threshold utilizing PyTest and robust testing factories.
@@ -28,7 +28,7 @@ The core objective was to transform a legacy code template into a production-rea
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 *   **Backend:** Python 3.9, Flask (REST API)
 *   **Database:** PostgreSQL
@@ -39,7 +39,7 @@ The core objective was to transform a legacy code template into a production-rea
 
 ---
 
-## 📦 Project Structure
+##  Project Structure
 
 The microservice follows a modular layout designed for high maintainability and horizontal scalability:
 
@@ -59,7 +59,7 @@ The microservice follows a modular layout designed for high maintainability and 
 
 ---
 
-## 📊 Data Model
+##  Data Model
 
 The persistence layer manages user accounts through the `Account` model with the following schema:
 
@@ -75,7 +75,7 @@ The persistence layer manages user accounts through the `Account` model with the
 
 ---
 
-## ⚙️ CI/CD Workflow Automation
+##  CI/CD Workflow Automation
 
 The software delivery lifecycle is fully automated to guarantee secure, frequent, and stable releases:
 
@@ -84,7 +84,7 @@ The software delivery lifecycle is fully automated to guarantee secure, frequent
 
 ---
 
-## 💻 Local Development & Testing
+##  Local Development & Testing
 
 To replicate the local environment and test this microservice, ensure you have **Docker Desktop** installed.
 
@@ -110,7 +110,7 @@ make clustertasks
 
 ---
 
-## 🧑‍💻 Author
+##  Author
 
 *   **Juan Carlos Reynoso Zúñiga** — *DevOps & Software Engineer*
     *   [LinkedIn Profile](https://www.linkedin.com/in/jcreynosoz) 
